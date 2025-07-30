@@ -1,20 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>cube timer</title>
+</head>
 <body>
-  
-  <form name="myform">
-    <input name="myfile" type="file" />
-  </form>
-  
-  <script>
-    
-    //Form要素を取得する
-    var form = document.forms.myform;
-    
-    //ファイルが読み込まれた時の処理
-    form.myfile.addEventListener('change', function(e) {
-      
-      //ここにファイル取得処理を書く
-      
-    })
-  </script>
-  
+	<button id="Scramble">Scramble</button>
+	<div id="timer">00:00:00</div>
+	<button id="start">Start</button>
+	<button id="stop">Stop</button>
+	<button id="reset">Reset</button>
+	<script src="js/main.js"></script>
 </body>
+</html>
