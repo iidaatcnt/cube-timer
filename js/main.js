@@ -5,7 +5,7 @@
   var start = document.getElementById('start');
   var stop  = document.getElementById('stop');
   var reset = document.getElementById('reset');
-  var scrambleBtn = document.getElementById('Scramble');
+  
 
   var startTime;
   var elapsedTime = 0;
@@ -59,8 +59,6 @@
     start.textContent = 'Start';
   });
 
-  scrambleBtn.addEventListener('click', function() {
-    alert('Scramble機能はまだ実装されていません。');
-  });
+  
 
 })();
